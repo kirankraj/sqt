@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+   
+    /* box-sizing: border-box; */
+}
+body{
+    background: rgb(243, 253, 250);
+}
+img{
+    padding-right:0;
+    padding-left:0;
+}
+h1{
+    position: absolute;
+    top: 105px;
+   left: 202px;
+}
+small{
+    visibility: hidden;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+}
+
+.col-md-5{
+    padding: 0;
+
+}
+.row{
+    row-gap: 0;
+}
+.col-md-7 .container{
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+
+    padding: 40px;
+    max-width: 510px;
+  min-width: 324px;
+  margin: 150px auto 100px;
+  background-color: white;
+  border: 1px solid rgb(172, 172, 172); 
+  /* border-bottom: 3px solid grey; */
+  
+}
+.editbtn{
+    /* width: 15px; */
+    font-size: 16px;
+    border:none;
+    padding: 4px;
+    color:rgb(136, 136, 214);
+    border-radius: 55px;
+    float:right
+}
+/* .col-md-6 a,i{
+    text-decoration: none;
+    float: right;
+} */
+.input {
+    margin-top: 55px;
+  }
+ .button{
+    float: right;
+    background-color: #f0f0f0;
+    border: none;
+    color: rgb(235, 132, 132);
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 55px
+    /* display: inline-block; */
+    /* border-radius: ; */
+
+ }
+ .trash{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #bb1e1e;
+    transform: translateX(2px);
+    position: relative;
+    left: 179px;
+    bottom: 30px;
+}
+#emailtrash,#numbertrash{
+    left: 400px;   
+}
+
+/* responsive */
+@media screen and (max-width:767px) {
+    .col-md-7{
+    position: relative;
+    bottom: 75px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.imagecap{
+    top: 45px;
+    left: 35px;
+}
+.editbtn{
+    position: relative;
+    bottom: 60px;
+    
+}
+.uil-edit{
+    color: rgb(91, 89, 243);;
+    background-color: rgb(231, 241, 248);
+    border-radius: 50%;
+    border: 1px solid rgb(91, 89, 243);
+    padding: 7px;
+}
+.btn .label {
+    display: none;
+}
+.button .label {
+    display: none;
+}
+.button{
+    position: relative;
+    bottom: 42px;
+}
+
+.row{
+    row-gap: 20px;
+}
+ .btn.btn-primary{
+     width: 100%;
+ }
+ .trash{
+    position: relative;
+    left: 220px;
+}
+#emailtrash,#numbertrash{
+    left: 220px;   
+}
+#email{
+    padding-bottom: -12px;
+}
+ }
+ @media screen and (min-width: 1024px){
+
+    body{
+        overflow: hidden;
+    }
+ }
+
+    
+
